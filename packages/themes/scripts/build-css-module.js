@@ -57,16 +57,67 @@ const generateThemeCssVariables = () => {
           return cssString.push(`${selector} {\n${cssVariables}\n}`);
         }
       });
+
+      return;
     }
+
+    const selector = ":root";
+
+    const cssVariables = Object.entries(value)
+      .map(([mainKey, mainValue]) =>
+        Object.entries(mainValue)
+          .map(
+            ([subKey, subValue]) =>
+              `--${toCssCasting(mainKey)}-${toCssCasting(
+                subKey,
+              )}: ${subValue};`,
+          )
+          .join("\n"),
+      )
+      .join("\n");
+
+    return cssString.push(`${selector} {\n${cssVariables}\n}`);
   });
 
   return cssString;
 };
 
-const generateThemCss = () => {
-  const variables = generateThemeCssVariables();
+const generateThemeCssClasses = () => {
+  const cssString = [];
 
-  fs.writeFileSync("dist/themes.css", [...variables].join("\n"));
+  Object.entries(theme.classes).forEach(([, value]) => {
+    const cssClasses = Object.entries(value)
+      .map(([mainKey, mainValue]) =>
+        Object.entries(mainValue)
+          .map(([subKey, subValue]) => {
+            const className = `.${toCssCasting(mainKey)}${toCssCasting(
+              subKey,
+            )}`;
+
+            const styleProperties = Object.entries(subValue)
+              .map(
+                ([styleKey, styleValue]) =>
+                  `${toCssCasting(styleKey)}: ${styleValue};`,
+              )
+              .join("\n");
+
+            return `${className} {\n${styleProperties}\n}`;
+          })
+          .join("\n"),
+      )
+      .join("\n");
+
+    cssString.push(cssClasses);
+  });
+
+  return cssString;
 };
 
-generateThemCss();
+const generateThemeCss = () => {
+  const variables = generateThemeCssVariables();
+  const classes = generateThemeCssClasses();
+
+  fs.writeFileSync("dist/themes.css", [...variables, ...classes].join("\n"));
+};
+
+generateThemeCss();
