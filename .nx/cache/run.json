@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx build @develsopher/themes",
+    "startTime": "2024-04-30T06:26:20.869Z",
+    "endTime": "2024-04-30T06:26:24.654Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@develsopher/themes:build",
+      "target": "build",
+      "projectName": "@develsopher/themes",
+      "hash": "13654026565163145373",
+      "startTime": "2024-04-30T06:26:20.872Z",
+      "endTime": "2024-04-30T06:26:24.654Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.3.4",
+  "deps": {
+    "nx": "^18.3.4",
+    "typescript": "^5.4.5",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-json-format": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "prettier": "^3.0.3"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "pluginsConfig": {
+    "@nx/js": {
+      "analyzeSourceFiles": false
+    }
+  },
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".yarnrc.yml",
+        "hash": "76334020552116950"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "9223406947698127358"
+      },
+      {
+        "file": "nx.json",
+        "hash": "14924708307150832443"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "1179432164812416385"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "15372558676272631225"
+      },
+      {
+        "file": "README.md",
+        "hash": "12498429015084136598"
+      },
+      {
+        "file": ".nx/cache/d/server-process.json",
+        "hash": "14025063947414671727"
+      },
+      {
+        "file": ".yarn/releases/yarn-4.1.1.cjs",
+        "hash": "6708668144986729228"
+      },
+      {
+        "file": "package.json",
+        "hash": "3908914363093742158"
+      }
+    ],
+    "projectFileMap": {
+      "@develsopher/themes": [
+        {
+          "file": "packages/themes/build.js",
+          "hash": "6076286661819267292"
+        },
+        {
+          "file": "packages/themes/package.json",
+          "hash": "9965014509833997808"
+        },
+        {
+          "file": "packages/themes/scripts/build-css-module.js",
+          "hash": "17090980470987875393"
+        },
+        {
+          "file": "packages/themes/src/classes/index.ts",
+          "hash": "14874153686921477232"
+        },
+        {
+          "file": "packages/themes/src/classes/typography.ts",
+          "hash": "4613592670763236173"
+        },
+        {
+          "file": "packages/themes/src/index.ts",
+          "hash": "5051740342712927388"
+        },
+        {
+          "file": "packages/themes/src/variables/box.ts",
+          "hash": "17415301785716516678"
+        },
+        {
+          "file": "packages/themes/src/variables/colors/index.ts",
+          "hash": "8608286768361054391"
+        },
+        {
+          "file": "packages/themes/src/variables/colors/scale.ts",
+          "hash": "7227875050283308958"
+        },
+        {
+          "file": "packages/themes/src/variables/colors/static/dark.ts",
+          "hash": "681337314988286385"
+        },
+        {
+          "file": "packages/themes/src/variables/colors/static/index.ts",
+          "hash": "17639848047638776056"
+        },
+        {
+          "file": "packages/themes/src/variables/colors/static/light.ts",
+          "hash": "5111065768491833496"
+        },
+        {
+          "file": "packages/themes/src/variables/index.ts",
+          "hash": "17288868138055620940"
+        },
+        {
+          "file": "packages/themes/src/variables/typography.ts",
+          "hash": "15749593622752628120"
+        },
+        {
+          "file": "packages/themes/tsconfig.json",
+          "hash": "10248009443664204963"
+        }
+      ]
+    }
+  }
+}
