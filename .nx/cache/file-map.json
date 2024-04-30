@@ -1,9 +1,7 @@
 {
   "version": "6.0",
-  "nxVersion": "18.3.4",
+  "nxVersion": "16.10.0",
   "deps": {
-    "nx": "^18.3.4",
-    "typescript": "^5.4.5",
     "@typescript-eslint/eslint-plugin": "^6.5.0",
     "@typescript-eslint/parser": "^6.5.0",
     "eslint": "^8.48.0",
@@ -14,7 +12,9 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
-    "prettier": "^3.0.3"
+    "nx": "^16.8.1",
+    "prettier": "^3.0.3",
+    "typescript": "^5.4.5"
   },
   "pathMappings": {},
   "nxJsonPlugins": [],
@@ -26,51 +26,256 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".yarnrc.yml",
-        "hash": "76334020552116950"
+        "file": ".eslintrc.js",
+        "hash": "7307395377797753530"
       },
       {
         "file": ".gitignore",
         "hash": "9223406947698127358"
       },
       {
-        "file": "nx.json",
-        "hash": "14924708307150832443"
+        "file": ".nx/cache/13654026565163145373/code",
+        "hash": "1838281907459330133"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "1179432164812416385"
+        "file": ".nx/cache/13654026565163145373/source",
+        "hash": "13444396064375927243"
       },
       {
-        "file": "yarn.lock",
-        "hash": "15372558676272631225"
+        "file": ".nx/cache/13654026565163145373/terminalOutput",
+        "hash": "3154267545903871073"
       },
       {
-        "file": "README.md",
-        "hash": "12498429015084136598"
+        "file": ".nx/cache/13654026565163145373.commit",
+        "hash": "4664556114322093609"
+      },
+      {
+        "file": ".nx/cache/18.3.4-nx.darwin-arm64.node",
+        "hash": "18104278352545448415"
+      },
+      {
+        "file": ".nx/cache/5928200636697777543/code",
+        "hash": "1838281907459330133"
+      },
+      {
+        "file": ".nx/cache/5928200636697777543/source",
+        "hash": "13444396064375927243"
+      },
+      {
+        "file": ".nx/cache/5928200636697777543/terminalOutput",
+        "hash": "11784437736695875622"
+      },
+      {
+        "file": ".nx/cache/5928200636697777543.commit",
+        "hash": "4664556114322093609"
       },
       {
         "file": ".nx/cache/d/server-process.json",
-        "hash": "14025063947414671727"
+        "hash": "4425961216689381706"
+      },
+      {
+        "file": ".nx/cache/file-map.json",
+        "hash": "16766060950402096601"
+      },
+      {
+        "file": ".nx/cache/lockfile.hash",
+        "hash": "15144636290556959386"
+      },
+      {
+        "file": ".nx/cache/nx_files.nxt",
+        "hash": "4675676915915317963"
+      },
+      {
+        "file": ".nx/cache/parsed-lock-file.json",
+        "hash": "5638574787093686947"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "1579859643446136517"
+      },
+      {
+        "file": ".nx/cache/run.json",
+        "hash": "10539440960633889100"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/13654026565163145373",
+        "hash": "3154267545903871073"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/5928200636697777543",
+        "hash": "11784437736695875622"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "2052412003981761678"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "10535867006991962306"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "5192163659098944044"
       },
       {
         "file": ".yarn/releases/yarn-4.1.1.cjs",
         "hash": "6708668144986729228"
       },
       {
+        "file": ".yarn/sdks/eslint/bin/eslint.js",
+        "hash": "457324197634674399"
+      },
+      {
+        "file": ".yarn/sdks/eslint/lib/api.js",
+        "hash": "9218057077919128729"
+      },
+      {
+        "file": ".yarn/sdks/eslint/lib/unsupported-api.js",
+        "hash": "4314044071561164915"
+      },
+      {
+        "file": ".yarn/sdks/eslint/package.json",
+        "hash": "9302568071849794418"
+      },
+      {
+        "file": ".yarn/sdks/integrations.yml",
+        "hash": "5703335058684100671"
+      },
+      {
+        "file": ".yarn/sdks/prettier/bin/prettier.cjs",
+        "hash": "8855614953399738736"
+      },
+      {
+        "file": ".yarn/sdks/prettier/index.cjs",
+        "hash": "14009293990004610656"
+      },
+      {
+        "file": ".yarn/sdks/prettier/package.json",
+        "hash": "2700667442143997768"
+      },
+      {
+        "file": ".yarn/sdks/typescript/bin/tsc",
+        "hash": "10666650432257705452"
+      },
+      {
+        "file": ".yarn/sdks/typescript/bin/tsserver",
+        "hash": "15690408123434230734"
+      },
+      {
+        "file": ".yarn/sdks/typescript/lib/tsc.js",
+        "hash": "4914677750769979712"
+      },
+      {
+        "file": ".yarn/sdks/typescript/lib/tsserver.js",
+        "hash": "5132865039172914386"
+      },
+      {
+        "file": ".yarn/sdks/typescript/lib/tsserverlibrary.js",
+        "hash": "18097361510822175431"
+      },
+      {
+        "file": ".yarn/sdks/typescript/lib/typescript.js",
+        "hash": "11646577489253808815"
+      },
+      {
+        "file": ".yarn/sdks/typescript/package.json",
+        "hash": "8888179804679917037"
+      },
+      {
+        "file": ".yarnrc.yml",
+        "hash": "76334020552116950"
+      },
+      {
+        "file": "README.md",
+        "hash": "12498429015084136598"
+      },
+      {
+        "file": "nx.json",
+        "hash": "14924708307150832443"
+      },
+      {
         "file": "package.json",
-        "hash": "3908914363093742158"
+        "hash": "10512793009068393397"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "1179432164812416385"
+      },
+      {
+        "file": "tsconfig.eslint.json",
+        "hash": "1169291880152018748"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "14049230333197094405"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/16803366851877383326",
+        "hash": "2069575107553224286"
+      },
+      {
+        "file": ".nx/cache/16803366851877383326/code",
+        "hash": "1838281907459330133"
+      },
+      {
+        "file": ".nx/cache/16803366851877383326/terminalOutput",
+        "hash": "2069575107553224286"
+      },
+      {
+        "file": ".nx/cache/16803366851877383326/source",
+        "hash": "13444396064375927243"
+      },
+      {
+        "file": ".nx/cache/16803366851877383326.commit",
+        "hash": "4664556114322093609"
+      },
+      {
+        "file": ".nx/cache/10534364408131036172/terminalOutput",
+        "hash": "15388493544485124201"
+      },
+      {
+        "file": ".nx/cache/10534364408131036172/code",
+        "hash": "1838281907459330133"
+      },
+      {
+        "file": ".nx/cache/10534364408131036172.commit",
+        "hash": "4664556114322093609"
+      },
+      {
+        "file": ".nx/cache/10534364408131036172/source",
+        "hash": "13444396064375927243"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/10534364408131036172",
+        "hash": "15388493544485124201"
       }
     ],
     "projectFileMap": {
+      "@develsopher/esbuild-config": [
+        {
+          "file": "packages/esbuild-config/README.md",
+          "hash": "6886952344311067916"
+        },
+        {
+          "file": "packages/esbuild-config/index.js",
+          "hash": "219371835848018192"
+        },
+        {
+          "file": "packages/esbuild-config/package.json",
+          "hash": "13977466012023374276"
+        }
+      ],
       "@develsopher/themes": [
         {
           "file": "packages/themes/build.js",
-          "hash": "6076286661819267292"
+          "hash": "16991662265189263041"
         },
         {
           "file": "packages/themes/package.json",
-          "hash": "9965014509833997808"
+          "hash": "14460700934168789210",
+          "deps": [
+            "@develsopher/esbuild-config"
+          ]
         },
         {
           "file": "packages/themes/scripts/build-css-module.js",
