@@ -3195,9 +3195,9 @@
         "hash": "10c0/0ec9965ec731a90624c911763afba8a94f631e33d3444b1b403047e8c6009bb83e3201f848c029c9642408653aa50369432016800b53f6865296dcb7e24de7d7"
       }
     },
-    "npm:@vanilla-extract/sprinkles@1.6.1": {
+    "npm:@vanilla-extract/sprinkles": {
       "type": "npm",
-      "name": "npm:@vanilla-extract/sprinkles@1.6.1",
+      "name": "npm:@vanilla-extract/sprinkles",
       "data": {
         "version": "1.6.1",
         "packageName": "@vanilla-extract/sprinkles",
@@ -4111,6 +4111,15 @@
         "version": "1.0.4",
         "packageName": "clone",
         "hash": "10c0/2176952b3649293473999a95d7bebfc9dc96410f6cbd3d2595cf12fd401f63a4bf41a7adbfd3ab2ff09ed60cb9870c58c6acdd18b87767366fabfc163700f13b"
+      }
+    },
+    "npm:clsx": {
+      "type": "npm",
+      "name": "npm:clsx",
+      "data": {
+        "version": "2.1.1",
+        "packageName": "clsx",
+        "hash": "10c0/c4c8eb865f8c82baab07e71bfa8897c73454881c4f99d6bc81585aecd7c441746c1399d08363dc096c550cceaf97bd4ce1e8854e1771e9998d9f94c4fe075839"
       }
     },
     "npm:color-convert@1.9.3": {

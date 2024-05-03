@@ -1,32 +1,21 @@
 {
   "run": {
-    "command": "nx build @develsopher/react-components-layout",
-    "startTime": "2024-04-30T07:38:34.589Z",
-    "endTime": "2024-04-30T07:38:41.368Z",
+    "command": "nx run-many --target=dev --projects=@develsopher/react-components-*",
+    "startTime": "2024-05-03T10:36:42.680Z",
+    "endTime": "2024-05-03T10:36:44.910Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "@develsopher/themes:build",
-      "target": "build",
-      "projectName": "@develsopher/themes",
-      "hash": "10530856785698145879",
-      "startTime": "2024-04-30T07:38:34.591Z",
-      "endTime": "2024-04-30T07:38:37.833Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 0
-    },
-    {
-      "taskId": "@develsopher/react-components-layout:build",
-      "target": "build",
+      "taskId": "@develsopher/react-components-layout:dev",
+      "target": "dev",
       "projectName": "@develsopher/react-components-layout",
-      "hash": "13279414855239323279",
-      "startTime": "2024-04-30T07:38:37.833Z",
-      "endTime": "2024-04-30T07:38:41.368Z",
+      "hash": "8072961620134765809",
+      "startTime": "2024-05-03T10:36:42.683Z",
+      "endTime": "2024-05-03T10:36:44.910Z",
       "params": "",
       "cacheStatus": "cache-miss",
-      "status": 0
+      "status": 1
     }
   ]
 }

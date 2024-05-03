@@ -1,0 +1,33 @@
+(node:39818) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:39818) ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✘ [ERROR] Could not resolve "clsx"
+
+    src/layout/Box.tsx:3:21:
+      3 │ import { clsx } from "clsx";
+        ╵                      ~~~~~~
+
+  The Yarn Plug'n'Play manifest forbids importing "clsx" here because it's not listed as a dependency of this package:
+
+    ../../../../.pnp.cjs:2669:31:
+      2669 │         "packageDependencies": [\
+           ╵                                ~~
+
+  You can mark the path "clsx" as external to exclude it from the bundle, which will remove this error.
+
+✘ [ERROR] Could not resolve "clsx"
+
+    src/layout/Box.tsx:3:21:
+      3 │ import { clsx } from "clsx";
+        ╵                      ~~~~~~
+
+  The Yarn Plug'n'Play manifest forbids importing "clsx" here because it's not listed as a dependency of this package:
+
+    ../../../../.pnp.cjs:2669:31:
+      2669 │         "packageDependencies": [\
+           ╵                                ~~
+
+  You can mark the path "clsx" as external to exclude it from the bundle, which will remove this error.
+
+Build failed
