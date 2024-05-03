@@ -4,6 +4,7 @@
   "deps": {
     "@typescript-eslint/eslint-plugin": "^6.5.0",
     "@typescript-eslint/parser": "^6.5.0",
+    "@vanilla-extract/esbuild-plugin": "^2.3.5",
     "eslint": "^8.48.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-import": "^2.28.1",
@@ -14,7 +15,7 @@
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "nx": "^16.8.1",
     "prettier": "^3.0.3",
-    "typescript": "^5.4.5"
+    "typescript": "^5.2.2"
   },
   "pathMappings": {},
   "nxJsonPlugins": [],
@@ -31,7 +32,55 @@
       },
       {
         "file": ".gitignore",
-        "hash": "9223406947698127358"
+        "hash": "11657904622578570589"
+      },
+      {
+        "file": ".nx/cache/10530856785698145879/code",
+        "hash": "1838281907459330133"
+      },
+      {
+        "file": ".nx/cache/10530856785698145879/source",
+        "hash": "13444396064375927243"
+      },
+      {
+        "file": ".nx/cache/10530856785698145879/terminalOutput",
+        "hash": "2992002380918592358"
+      },
+      {
+        "file": ".nx/cache/10530856785698145879.commit",
+        "hash": "4664556114322093609"
+      },
+      {
+        "file": ".nx/cache/10534364408131036172/code",
+        "hash": "1838281907459330133"
+      },
+      {
+        "file": ".nx/cache/10534364408131036172/source",
+        "hash": "13444396064375927243"
+      },
+      {
+        "file": ".nx/cache/10534364408131036172/terminalOutput",
+        "hash": "15388493544485124201"
+      },
+      {
+        "file": ".nx/cache/10534364408131036172.commit",
+        "hash": "4664556114322093609"
+      },
+      {
+        "file": ".nx/cache/13279414855239323279/code",
+        "hash": "1838281907459330133"
+      },
+      {
+        "file": ".nx/cache/13279414855239323279/source",
+        "hash": "13444396064375927243"
+      },
+      {
+        "file": ".nx/cache/13279414855239323279/terminalOutput",
+        "hash": "17319657861392080033"
+      },
+      {
+        "file": ".nx/cache/13279414855239323279.commit",
+        "hash": "4664556114322093609"
       },
       {
         "file": ".nx/cache/13654026565163145373/code",
@@ -47,6 +96,22 @@
       },
       {
         "file": ".nx/cache/13654026565163145373.commit",
+        "hash": "4664556114322093609"
+      },
+      {
+        "file": ".nx/cache/16803366851877383326/code",
+        "hash": "1838281907459330133"
+      },
+      {
+        "file": ".nx/cache/16803366851877383326/source",
+        "hash": "13444396064375927243"
+      },
+      {
+        "file": ".nx/cache/16803366851877383326/terminalOutput",
+        "hash": "2069575107553224286"
+      },
+      {
+        "file": ".nx/cache/16803366851877383326.commit",
         "hash": "4664556114322093609"
       },
       {
@@ -71,15 +136,15 @@
       },
       {
         "file": ".nx/cache/d/server-process.json",
-        "hash": "4425961216689381706"
+        "hash": "9241492383138549294"
       },
       {
         "file": ".nx/cache/file-map.json",
-        "hash": "16766060950402096601"
+        "hash": "7599868972103128632"
       },
       {
         "file": ".nx/cache/lockfile.hash",
-        "hash": "15144636290556959386"
+        "hash": "16938131163794760544"
       },
       {
         "file": ".nx/cache/nx_files.nxt",
@@ -87,19 +152,35 @@
       },
       {
         "file": ".nx/cache/parsed-lock-file.json",
-        "hash": "5638574787093686947"
+        "hash": "16667872627051185633"
       },
       {
         "file": ".nx/cache/project-graph.json",
-        "hash": "1579859643446136517"
+        "hash": "1720299180768184787"
       },
       {
         "file": ".nx/cache/run.json",
-        "hash": "10539440960633889100"
+        "hash": "11419499473527077430"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/10530856785698145879",
+        "hash": "2992002380918592358"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/10534364408131036172",
+        "hash": "15388493544485124201"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/13279414855239323279",
+        "hash": "17319657861392080033"
       },
       {
         "file": ".nx/cache/terminalOutputs/13654026565163145373",
         "hash": "3154267545903871073"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/16803366851877383326",
+        "hash": "2069575107553224286"
       },
       {
         "file": ".nx/cache/terminalOutputs/5928200636697777543",
@@ -191,15 +272,15 @@
       },
       {
         "file": "nx.json",
-        "hash": "14924708307150832443"
+        "hash": "2802105145389868175"
       },
       {
         "file": "package.json",
-        "hash": "10512793009068393397"
+        "hash": "11254924525071513468"
       },
       {
         "file": "tsconfig.base.json",
-        "hash": "1179432164812416385"
+        "hash": "16141623451074293051"
       },
       {
         "file": "tsconfig.eslint.json",
@@ -207,64 +288,10 @@
       },
       {
         "file": "yarn.lock",
-        "hash": "14049230333197094405"
-      },
-      {
-        "file": ".nx/cache/terminalOutputs/16803366851877383326",
-        "hash": "2069575107553224286"
-      },
-      {
-        "file": ".nx/cache/16803366851877383326/code",
-        "hash": "1838281907459330133"
-      },
-      {
-        "file": ".nx/cache/16803366851877383326/terminalOutput",
-        "hash": "2069575107553224286"
-      },
-      {
-        "file": ".nx/cache/16803366851877383326/source",
-        "hash": "13444396064375927243"
-      },
-      {
-        "file": ".nx/cache/16803366851877383326.commit",
-        "hash": "4664556114322093609"
-      },
-      {
-        "file": ".nx/cache/10534364408131036172/terminalOutput",
-        "hash": "15388493544485124201"
-      },
-      {
-        "file": ".nx/cache/10534364408131036172/code",
-        "hash": "1838281907459330133"
-      },
-      {
-        "file": ".nx/cache/10534364408131036172.commit",
-        "hash": "4664556114322093609"
-      },
-      {
-        "file": ".nx/cache/10534364408131036172/source",
-        "hash": "13444396064375927243"
-      },
-      {
-        "file": ".nx/cache/terminalOutputs/10534364408131036172",
-        "hash": "15388493544485124201"
+        "hash": "669984464980733651"
       }
     ],
     "projectFileMap": {
-      "@develsopher/esbuild-config": [
-        {
-          "file": "packages/esbuild-config/README.md",
-          "hash": "6886952344311067916"
-        },
-        {
-          "file": "packages/esbuild-config/index.js",
-          "hash": "219371835848018192"
-        },
-        {
-          "file": "packages/esbuild-config/package.json",
-          "hash": "13977466012023374276"
-        }
-      ],
       "@develsopher/themes": [
         {
           "file": "packages/themes/build.js",
@@ -272,9 +299,10 @@
         },
         {
           "file": "packages/themes/package.json",
-          "hash": "14460700934168789210",
+          "hash": "226170884725140745",
           "deps": [
-            "@develsopher/esbuild-config"
+            "@develsopher/esbuild-config",
+            "npm:typescript"
           ]
         },
         {
@@ -328,6 +356,82 @@
         {
           "file": "packages/themes/tsconfig.json",
           "hash": "10248009443664204963"
+        }
+      ],
+      "@develsopher/react-components-layout": [
+        {
+          "file": "packages/react/components/layout/build.js",
+          "hash": "16635088888334742269"
+        },
+        {
+          "file": "packages/react/components/layout/package.json",
+          "hash": "12688491768337925361",
+          "deps": [
+            "@develsopher/esbuild-config",
+            "@develsopher/themes",
+            "npm:@vanilla-extract/esbuild-plugin",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "packages/react/components/layout/src/Block.tsx",
+          "hash": "7943584511706803509"
+        },
+        {
+          "file": "packages/react/components/layout/src/block.css.ts",
+          "hash": "6987502595917312164"
+        },
+        {
+          "file": "packages/react/components/layout/src/index.ts",
+          "hash": "12541406279628729372"
+        },
+        {
+          "file": "packages/react/components/layout/tsconfig.json",
+          "hash": "10344179325425879767"
+        }
+      ],
+      "@develsopher/storybook": [
+        {
+          "file": "services/storybook/.storybook/main.js",
+          "hash": "3285916594346308345"
+        },
+        {
+          "file": "services/storybook/.storybook/preview.js",
+          "hash": "8676732123521307366"
+        },
+        {
+          "file": "services/storybook/.storybook/style.css",
+          "hash": "17341587499090778034"
+        },
+        {
+          "file": "services/storybook/README.md",
+          "hash": "2624393197388313932"
+        },
+        {
+          "file": "services/storybook/package.json",
+          "hash": "8748199280002929248",
+          "deps": [
+            "@develsopher/react-components-layout",
+            "@develsopher/themes"
+          ]
+        },
+        {
+          "file": "services/storybook/stories/ReactComponents/Layout/Block.stories.tsx",
+          "hash": "17529508138688153217"
+        }
+      ],
+      "@develsopher/esbuild-config": [
+        {
+          "file": "packages/esbuild-config/README.md",
+          "hash": "6886952344311067916"
+        },
+        {
+          "file": "packages/esbuild-config/index.js",
+          "hash": "219371835848018192"
+        },
+        {
+          "file": "packages/esbuild-config/package.json",
+          "hash": "13977466012023374276"
         }
       ]
     }
